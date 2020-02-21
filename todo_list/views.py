@@ -11,7 +11,7 @@ def home(request):
             form.save()
             all_items = List.objects.all
             messages.success(request, ('Element został dodany do listy '))
-            return render(request, 'home.html', {'all_items': all_items})
+        return render(request, 'home.html', {'all_items': all_items})
     else:          
         all_items = List.objects.all
         return render(request, 'home.html', {'all_items': all_items})
