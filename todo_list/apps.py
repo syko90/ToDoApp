@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class TodoListConfig(AppConfig):
-    name = 'todo_list'
+class listaListConfig(AppConfig):
+    name = 'lista'
